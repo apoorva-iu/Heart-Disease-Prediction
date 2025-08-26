@@ -29,37 +29,6 @@ It uses a trained **Random Forest Classifier** model and provides **visual repor
 - Final model: **RandomForestClassifier** (saved as `heart_disease_model.pkl`)
 
 ---
-
-
-## 📂 Project Structure
-
-Heart-Disease-Prediction/
-│
-├── app.py # Main Streamlit app
-├── prediction.py # Prediction page (inputs, charts, risk meter)
-├── report.py # Report generation page (PDF + summary)
-├── train_models.ipynb # Notebook for training & evaluating models
-├── dataset.csv # Heart disease dataset
-├── heart_disease_model.pkl # Saved trained model
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
-
----
-
-## ⚙️ Installation & Usage
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/apoorva-iu/heart-disease-prediction.git
-cd heart-disease-prediction
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Run the App
-streamlit run app.py
-
 Input Features
 
 The model uses 13 medical features:
@@ -90,6 +59,17 @@ ca → Number of major vessels (0–3)
 
 thal → Thalassemia (1 = normal, 2 = fixed defect, 3 = reversible defect)
 
+---
+## ⚙️ Installation & Usage
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/apoorva-iu/heart-disease-prediction.git
+cd heart-disease-prediction
 
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Run the App
+streamlit run app.py
 
